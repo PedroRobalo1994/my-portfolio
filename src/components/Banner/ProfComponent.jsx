@@ -18,7 +18,7 @@ const ProfComponent = () => {
           <p>
             Some say I am Developer, some say I am a Programmer, and some say I am an Engineer. But what I am mostly is a person driven by curiosity and all tech stuff.
           </p>
-          <button><a href="#footer">Let's talk</a></button>
+          <button><a href="#contacts">Let's talk</a></button>
           <Social>
             <p>Check out my</p>
             <div className="social-icons">

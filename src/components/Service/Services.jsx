@@ -8,7 +8,7 @@ import { Slide } from "react-awesome-reveal";
 
 const Services = () => {
   return (
-    <Container id="service">
+    <Container id="services">
       <Slide direction="down">
         <h4>
           <span className="green">My Services</span>

@@ -9,10 +9,10 @@ const Header = () => {
         </Logo>
         <Nav bar={bar}>
             <span><a href="#home">Home</a></span>
-            <span><a href="#service">Services</a></span>
-            <span><a href="#project">Projects</a></span>
-            <span><a href="#client">Testimonials</a></span>
-            <span><a href="#footer">Contacts</a></span>
+            <span><a href="#services">Services</a></span>
+            <span><a href="#projects">Projects</a></span>
+            <span><a href="#testimonials">Testimonials</a></span>
+            <span><a href="#contacts">Contacts</a></span>
         </Nav>
         <div
         onClick={() => setBar(!bar)}
@@ -29,7 +29,6 @@ const Container = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1280px;
     width: 80%;
     margin: 0 auto;
     padding: 1.5rem 0;

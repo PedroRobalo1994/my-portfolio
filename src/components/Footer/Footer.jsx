@@ -15,7 +15,7 @@ const Footer = () => {
     });
   };
   return (
-    <Container id="footer">
+    <Container id="contacts">
       <Profile>
         <Slide direction="left" delay={1}>
           <h1>Contacts</h1>
@@ -212,7 +212,8 @@ const ArrowUp = styled.div`
   @media (max-width: 650px) {
     position: absolute;
     right: 3rem;
-    top: 16rem;
+    top: 13rem;
+
   }
 `;
 const Form = styled.div`
