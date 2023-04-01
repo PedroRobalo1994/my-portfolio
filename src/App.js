@@ -1,10 +1,9 @@
 import styled from "styled-components";
 import Header from "./components/Banner/Header";
 import ProfComponent from "./components/Banner/ProfComponent";
-import Clients from "./components/Clients/Clients";
-import Footer from "./components/Footer/Footer";
+import Contacts from "./components/Contacts/Contacts";
 import Projects from "./components/Projects/Projects";
-import Services from "./components/Service/Services";
+import Services from "./components/Services/Services";
 
 function App() {
   return (
@@ -17,10 +16,7 @@ function App() {
       <LightColor>
         <Projects />
       </LightColor>
-      <Clients />
-      <LightColor>
-        <Footer />
-      </LightColor>
+      <Contacts />
     </Container>
   );
 }

@@ -51,7 +51,7 @@ const Container = styled.div`
             font-size: 0.8rem;
             a{
                 margin-left: 0.4rem;
-                color: red;
+                color: #01b1be;
             }
         }
     }

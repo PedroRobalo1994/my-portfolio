@@ -7,7 +7,7 @@ import { AiFillGithub, AiFillLinkedin, AiOutlineArrowUp, AiFillInstagram} from "
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Slide, Zoom, Fade } from "react-awesome-reveal";
 
-const Footer = () => {
+const Contacts = () => {
   const scrollUp = () => {
     window.scroll({
       top: 0,
@@ -109,7 +109,7 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Contacts;
 
 const Container = styled.div`
   margin-top: 2rem;
