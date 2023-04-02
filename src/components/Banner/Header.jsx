@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
 
   // add event listener so that the hash in the url is removed when the page is refreshed
-  window.addEventListener("hashchange", () => window.history.pushState({}, "", '/my-portfolio'), {});
+  window.addEventListener("hashchange", () => window.history.pushState({}, "", '/my-portfolio/'), {});
 
   return (
     <Container bar={bar}>
