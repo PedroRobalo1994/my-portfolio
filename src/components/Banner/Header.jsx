@@ -14,13 +14,16 @@ const Header = () => {
     return () => links.forEach(link => link.removeEventListener('click', handleLinkClick));
   }, []);
 
+  // add event listener so that the hash in the url is removed when the page is refreshed
+  window.addEventListener("hashchange", () => window.history.pushState({}, "", '/'), {});
+
   return (
     <Container bar={bar}>
       <Logo>
         {/* add your logo here */}
       </Logo>
       <Nav bar={bar}>
-        <span><a href="#home">Home</a></span>
+        <span><a href="/">Home</a></span>
         <span><a href="#services">Services</a></span>
         <span><a href="#projects">Projects</a></span>
         <span><a href="#contacts">Contacts</a></span>

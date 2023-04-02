@@ -7,7 +7,7 @@ import { Slide } from "react-awesome-reveal";
 
 const ProfComponent = () => {
   return (
-    <Container id="home">
+    <Container id="home"> 
       <Slide direction="left">
         <Texts>
           <h4>
