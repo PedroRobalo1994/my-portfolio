@@ -15,7 +15,7 @@ const Header = () => {
   }, []);
 
   // add event listener so that the hash in the url is removed when the page is refreshed
-  window.addEventListener("hashchange", () => window.history.pushState({}, "", '/'), {});
+  window.addEventListener("hashchange", () => window.history.pushState({}, "", '/my-portfolio'), {});
 
   return (
     <Container bar={bar}>
@@ -23,7 +23,7 @@ const Header = () => {
         {/* add your logo here */}
       </Logo>
       <Nav bar={bar}>
-        <span><a href="/">Home</a></span>
+        <span><a href="#home">Home</a></span>
         <span><a href="#services">Services</a></span>
         <span><a href="#projects">Projects</a></span>
         <span><a href="#contacts">Contacts</a></span>
