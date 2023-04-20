@@ -1,4 +1,7 @@
-import React from "react";
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import styled from "styled-components";
 import { MdAlternateEmail } from "react-icons/md";
 import { CgProfile } from "react-icons/cg";
@@ -14,6 +17,45 @@ const Contacts = () => {
       behavior: "smooth",
     });
   };
+
+  const emailSentToast = () => toast.success("😁 Email Submitted!", {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+  });
+
+  const emailNotSentToast = () => toast.error("😮 Email Was Not Submitted!", {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "dark",
+  });
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_zc5vaxi', 'template_qbxmras', form.current, 'Oz9w4gr0z2e0HHO_G')
+      .then((result) => {
+          console.log(`Email Sent with Code ${result.text}`);
+          form.current.reset()
+          emailSentToast();
+      }, (error) => {
+          console.log(error.text);
+          emailNotSentToast();
+      });
+  };
+
   return (
     <Container id="contacts">
       <Profile>
@@ -81,29 +123,28 @@ const Contacts = () => {
         </Fade>
       </Profile>
       <Form>
-        <Slide direction="right">
-          <form>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="name">
               <span>
                 <CgProfile />
               </span>
-              <input type="text" placeholder="Fullname..." />
+              <input type="text" name='user_name' placeholder="Fullname..." />
             </div>
             <div className="email">
               <span>
                 <MdAlternateEmail />
               </span>
-              <input type="email" placeholder="Email..." />
+              <input type="email" name='user_email' placeholder="Email..." />
             </div>
             <div className="message">
               <span className="messageIcon">
                 <FiMail />
               </span>
-              <textarea cols="30" rows="10" placeholder="Message..."></textarea>
+              <textarea cols="30" rows="10" name='message' placeholder="Message..."></textarea>
             </div>
             <button>Submit</button>
+            <ToastContainer />
           </form>
-        </Slide>
       </Form>
     </Container>
   );
