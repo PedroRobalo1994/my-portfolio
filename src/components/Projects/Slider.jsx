@@ -12,8 +12,8 @@ let data = [
     },
     {
         img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-        link: "/"
+        disc : "Infinite Scroll is a simple app that fetches images from the Unsplash API in continous way. Limited to only 50 requests/hour.",
+        link: "https://pedrorobalo1994.github.io/infinite-scroll/"
     },
     {
         img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
