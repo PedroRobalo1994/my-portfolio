@@ -11,8 +11,8 @@ let data = [
         link: "https://pedrorobalo1994.github.io/quote-generator/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661324074/Yt-portfolio/ui4_jku3ol.png",
-        disc : "Infinite Scroll is a simple app that fetches images from the Unsplash API in continous way. Limited to only 50 requests/hour.",
+        img : require("../../images/infinite-scroll.png"),
+        disc : "Infinite Scroll is a simple app that fetches images from the Unsplash API in continuous way. Limited to only 50 requests/hour.",
         link: "https://pedrorobalo1994.github.io/infinite-scroll/"
     },
     {
