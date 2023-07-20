@@ -16,9 +16,9 @@ let data = [
         link: "https://pedrorobalo1994.github.io/infinite-scroll/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323981/Yt-portfolio/ui2_wtollo.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-        link: "/"
+        img : require("../../images/infinite-scroll.png"),
+        disc : "This project enables website users to screenshare any stream and resize it in picture-in-picture (PIP) format.",
+        link: "https://pedrorobalo1994.github.io/picture-in-picture/"
     },
     {
         img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
