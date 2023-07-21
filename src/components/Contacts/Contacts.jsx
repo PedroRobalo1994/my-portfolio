@@ -201,7 +201,7 @@ const Profile = styled.div`
         text-decoration: none;
         color: lightgray;
         :hover {
-          color: orange;
+          color: #01b1cf;
         }
       }
     }
