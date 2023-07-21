@@ -16,7 +16,7 @@ let data = [
         link: "https://pedrorobalo1994.github.io/infinite-scroll/"
     },
     {
-        img : require("../../images/infinite-scroll.png"),
+        img : require("../../images/picture-in-picture.png"),
         disc : "This project enables website users to screenshare any stream and resize it in picture-in-picture (PIP) format.",
         link: "https://pedrorobalo1994.github.io/picture-in-picture/"
     },
