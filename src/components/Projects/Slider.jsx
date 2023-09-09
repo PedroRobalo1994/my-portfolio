@@ -26,9 +26,9 @@ let data = [
         link: "https://pedrorobalo1994.github.io/joke-teller/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-        link: "/"
+        img : require("../../images/light-dark-mode.png"),
+        disc : "This project allows the user to enable light or dark mode in the website.",
+        link: "https://pedrorobalo1994.github.io/light-dark-mode/"
     }
 ];
 
