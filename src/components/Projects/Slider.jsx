@@ -21,9 +21,9 @@ let data = [
         link: "https://pedrorobalo1994.github.io/picture-in-picture/"
     },
     {
-        img : "https://res.cloudinary.com/ghazni/image/upload/v1661323980/Yt-portfolio/ui3_akynn4.png",
-        disc : "Lorem ipsum dolor sit amet consectetur adipisicing elit.Eveniet iure rerum obcaecati et laborum earum!",
-        link: "/"
+        img : require("../../images/joke-teller.png"),
+        disc : "This projects is about a funny robot that tells jokes",
+        link: "https://pedrorobalo1994.github.io/joke-teller/"
     },
     {
         img : "https://res.cloudinary.com/ghazni/image/upload/v1661323979/Yt-portfolio/ui1_n3uiaz.png",
