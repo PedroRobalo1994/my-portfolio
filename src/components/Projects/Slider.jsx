@@ -5,6 +5,11 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 
 let data = [
+      {
+        img : require("../../images/ai-companion.png"),
+        disc : "This is a SaaS-based AI application that empowers users to craft their own AI companions for interaction. This project utilizes Next.js 13, Tailwind CSS, and the OpenAI API for its core functionalities. Additionally, it leverages Prisma for robust and efficient data storage of user-created AI companions.",
+        link: "https://ai-companion-chi-ochre.vercel.app/"
+    },
     {
         img : require("../../images/quote-generator.png"),
         disc : "Quote Generator is a simple app that generates random quotes from famous people.",
