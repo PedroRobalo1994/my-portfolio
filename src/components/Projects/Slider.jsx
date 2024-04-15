@@ -7,7 +7,7 @@ import styled from 'styled-components';
 let data = [
       {
         img : require("../../images/ai-companion.png"),
-        disc : "This is a SaaS-based AI application that empowers users to craft their own AI companions for interaction. This project utilizes Next.js 13, Tailwind CSS, and the OpenAI API for its core functionalities. Additionally, it leverages Prisma for robust and efficient data storage of user-created AI companions.",
+        disc : "This is a SaaS-based AI application that allows users to craft their own AI companions. This project utilizes Next.js 13, Tailwind, and the OpenAI API for its functionalities. Additionally, it leverages Prisma for data storage of user-created AI companions.",
         link: "https://ai-companion-chi-ochre.vercel.app/"
     },
     {
@@ -22,19 +22,30 @@ let data = [
     },
     {
         img : require("../../images/picture-in-picture.png"),
-        disc : "This project enables website users to screenshare any stream and resize it in picture-in-picture (PIP) format.",
+        disc : "This project enables website users to screen-share any stream and resize it in picture-in-picture (PIP) format.",
         link: "https://pedrorobalo1994.github.io/picture-in-picture/"
     },
     {
         img : require("../../images/joke-teller.png"),
-        disc : "This projects is about a funny robot that tells jokes",
+        disc : "This projects is about a funny robot that tells jokes.",
         link: "https://pedrorobalo1994.github.io/joke-teller/"
     },
     {
         img : require("../../images/light-dark-mode.png"),
         disc : "This project allows the user to enable light or dark mode in the website.",
         link: "https://pedrorobalo1994.github.io/light-dark-mode/"
-    }
+    },
+    {
+      img: require("../../images/animated-template.png"),
+      disc: "This project is a simple website template that is animated.",
+      link: "https://pedrorobalo1994.github.io/animated-template/"
+    },
+    {
+      img: require("../../images/animated-navigation.png"),
+      disc: "This project adds multiple animations to the navigation bar.",
+      link: "https://pedrorobalo1994.github.io/animated-navigation/"
+    },
+
 ];
 
 var settings = {
