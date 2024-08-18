@@ -45,6 +45,11 @@ let data = [
       disc: "This project adds multiple animations to the navigation bar.",
       link: "https://pedrorobalo1994.github.io/animated-navigation/"
     },
+    {
+      img: require("../../images/music-player.png"),
+      disc: "This project is a simple music player.",
+      link: "https://pedrorobalo1994.github.io/music-player/"
+    }
 
 ];
 
