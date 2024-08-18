@@ -5,35 +5,40 @@ import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import styled from 'styled-components';
 
 let data = [
-      {
-        img : require("../../images/ai-companion.png"),
-        disc : "This is a SaaS-based AI application that allows users to craft their own AI companions. This project utilizes Next.js 13, Tailwind, and the OpenAI API for its functionalities. Additionally, it leverages Prisma for data storage of user-created AI companions.",
-        link: "https://ai-companion-chi-ochre.vercel.app/"
+    {
+      img : require("../../images/nike.png"),
+      disc : "This is nike product landing page built with Vite to learn Tailwind CSS.",
+      link: "https://pedrorobalo1994.github.io/nike/"
     },
     {
-        img : require("../../images/quote-generator.png"),
-        disc : "Quote Generator is a simple app that generates random quotes from famous people.",
-        link: "https://pedrorobalo1994.github.io/quote-generator/"
+      img : require("../../images/ai-companion.png"),
+      disc : "This is a SaaS-based AI application that allows users to craft their own AI companions. This project utilizes Next.js 13, Tailwind, and the OpenAI API for its functionalities. Additionally, it leverages Prisma for data storage of user-created AI companions.",
+      link: "https://ai-companion-chi-ochre.vercel.app/"
     },
     {
-        img : require("../../images/infinite-scroll.png"),
-        disc : "Infinite Scroll is a simple app that fetches images from the Unsplash API in continuous way. Limited to only 50 requests/hour.",
-        link: "https://pedrorobalo1994.github.io/infinite-scroll/"
+      img : require("../../images/quote-generator.png"),
+      disc : "Quote Generator is a simple app that generates random quotes from famous people.",
+      link: "https://pedrorobalo1994.github.io/quote-generator/"
     },
     {
-        img : require("../../images/picture-in-picture.png"),
-        disc : "This project enables website users to screen-share any stream and resize it in picture-in-picture (PIP) format.",
-        link: "https://pedrorobalo1994.github.io/picture-in-picture/"
+      img : require("../../images/infinite-scroll.png"),
+      disc : "Infinite Scroll is a simple app that fetches images from the Unsplash API in continuous way. Limited to only 50 requests/hour.",
+      link: "https://pedrorobalo1994.github.io/infinite-scroll/"
     },
     {
-        img : require("../../images/joke-teller.png"),
-        disc : "This projects is about a funny robot that tells jokes.",
-        link: "https://pedrorobalo1994.github.io/joke-teller/"
+      img : require("../../images/picture-in-picture.png"),
+      disc : "This project enables website users to screen-share any stream and resize it in picture-in-picture (PIP) format.",
+      link: "https://pedrorobalo1994.github.io/picture-in-picture/"
     },
     {
-        img : require("../../images/light-dark-mode.png"),
-        disc : "This project allows the user to enable light or dark mode in the website.",
-        link: "https://pedrorobalo1994.github.io/light-dark-mode/"
+      img : require("../../images/joke-teller.png"),
+      disc : "This projects is about a funny robot that tells jokes.",
+      link: "https://pedrorobalo1994.github.io/joke-teller/"
+    },
+    {
+      img : require("../../images/light-dark-mode.png"),
+      disc : "This project allows the user to enable light or dark mode in the website.",
+      link: "https://pedrorobalo1994.github.io/light-dark-mode/"
     },
     {
       img: require("../../images/animated-template.png"),
@@ -50,7 +55,6 @@ let data = [
       disc: "This project is a simple music player.",
       link: "https://pedrorobalo1994.github.io/music-player/"
     }
-
 ];
 
 var settings = {
