@@ -54,6 +54,10 @@ let data = [
       img: require("../../images/music-player.png"),
       disc: "This project is a simple music player.",
       link: "https://pedrorobalo1994.github.io/music-player/"
+    },
+    { img: require("../../images/custom-countdown.png"),
+      disc : "This project is a custom countdown timer.",
+      link: "https://pedrorobalo1994.github.io/custom-countdown/"
     }
 ];
 
